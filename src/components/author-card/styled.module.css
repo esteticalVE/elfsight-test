@@ -1,0 +1,47 @@
+.author_card {
+  display: flex;
+  align-self: center;
+  min-width: 450;
+  margin-bottom: 40;
+  cursor: pointer;
+}
+
+.author_card__title {
+  display: flex;
+  position: relative;
+}
+
+.author_card {
+  display: flex;
+  align-self: center;
+  min-width: 450;
+  margin-bottom: 40;
+  cursor: pointer;
+}
+
+.heading_arrow {
+  font-size: 39px;
+  margin: 0;
+  color: white;
+}
+
+.heading_arrow:after {
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 56px;
+  content: '→';
+  position: absolute;
+  top: 10%;
+  left: 100%;
+  margin-left: 10px;
+  margin-top: -20px;
+  opacity: 0;
+  transform: translate(-10px, 0);
+  transition: all 0.3s ease;
+}
+
+.heading_arrow:hover:after {
+  color: white;
+  opacity: 1;
+  transform: translate(0, 0);
+}

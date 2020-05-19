@@ -1,0 +1,45 @@
+.photo_card {
+  margin: auto;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  box-shadow: rgba(125, 132, 153, 0.04) 0px 2px 4px 0px,
+    rgba(125, 132, 153, 0.2) 0px 4px 18px 0px;
+  background-color: #f2edeb;
+  border-radius: 0.3em;
+  cursor: pointer;
+}
+
+.album_card {
+  width: 20em;
+  height: 20em;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.album_card__content {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  padding: 20px;
+}
+
+.album_card__total {
+  position: absolute;
+  top: 12px;
+  margin: 0;
+  right: 12px;
+  color: white;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 5px;
+  border-radius: 5px;
+}

@@ -1,0 +1,10 @@
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+.loader > h2 {
+  color: white;
+  font-size: 40px;
+}

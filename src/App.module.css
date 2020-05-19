@@ -1,0 +1,46 @@
+.App {
+  background: #3a6186;
+  background: -webkit-linear-gradient(to right, #89253e, #3a6186);
+  background: linear-gradient(to right, #89253e, #3a6186);
+  min-height: 100vh;
+}
+
+.header_button__wrapper {
+  display: flex;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.header_button {
+  font-size: 30px;
+  color: white;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin: 0 0 0 40px;
+  padding: 0;
+  text-decoration: none;
+  color: white;
+}
+
+.header_button:before {
+  background: transparent;
+  vertical-align: middle;
+  line-height: 1;
+  font-size: 30px;
+  content: '←';
+  position: absolute;
+  top: -5%;
+  left: 10px;
+  opacity: 0;
+  transform: translate(10px, 0);
+  transition: all 0.3s ease;
+}
+
+.header_button:hover:before {
+  color: white;
+  opacity: 1;
+  transform: translate(0, 0);
+}
